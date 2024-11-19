@@ -1,3 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: rgb(0, 0, 0);
+  /*te ayuda para ver todas las cajas de la pagina*/
+  /*border: 1px black solid;*/
+}
 
+.banner {
+  width: 100%;
+  height: 500px; /* Altura del recuadro */
+  background-image: url(../../images/banner-min.jpg);
+  background-size: cover; /* Hace que la imagen cubra todo el recuadro */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.banner > img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+.banner {
+    width: 100%;
+    height: 500px; /* Altura del recuadro */
+    background-image: url(../../images/banner-min.jpg);
+    background-size: cover; /* Hace que la imagen cubra todo el recuadro */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.banner > img {
+    width: 100%;
+}
