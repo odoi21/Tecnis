@@ -10,8 +10,7 @@
   /*border: 1px black solid;*/
 }
 
-body {
-  min-width: 320px; /* Establece un ancho mínimo para la página */
+body { /* Establece un ancho mínimo para la página */
   overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
