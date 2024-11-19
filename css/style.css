@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -10,7 +9,8 @@
   /*border: 1px black solid;*/
 }
 
-body { /* Establece un ancho mínimo para la página */
+body {
+  min-height: 100vh;
   overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
