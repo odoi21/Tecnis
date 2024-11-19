@@ -4,8 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     /*te ayuda para ver todas las cajas de la pagina*/
     /*border: 1px black solid;*/
 }
 
+body {
+    min-width: 320px; /* Establece un ancho mínimo para la página */
+    overflow-x: hidden; /* Evita el scroll horizontal */
+}
