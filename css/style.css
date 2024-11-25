@@ -1,3 +1,12 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "BebasNeue";
+  src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
 * {
   margin: 0px;
   padding: 0px;
@@ -14,17 +23,25 @@ body {
   overflow-x: hidden; /* Evita el scroll horizontal */
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "BebasNeue";
+  color: black;
+}
+
 .navbar {
   transition: all 0.3s ease-in-out;
   background-color: transparent;
   animation: slideFromLeft 1s ease-out;
 }
-.navbar .button-nav {
-  background-color: white;
+.navbar .navbar-nav {
+  display: flex; /* Asegúrate de que el contenedor sea flex */
+  gap: 30px; /* Ajusta el valor según el espacio que desees */
 }
 .navbar .nav-link {
   color: white !important;
   position: relative;
+  font-family: "BebasNeue";
+  font-size: x-large;
 }
 .navbar .nav-link::after {
   content: "";

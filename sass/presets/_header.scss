@@ -1,15 +1,17 @@
 .navbar {
+    .navbar-nav {
+        display: flex; /* Asegúrate de que el contenedor sea flex */
+        gap: 30px; /* Ajusta el valor según el espacio que desees */
+    }
     transition: all 0.3s ease-in-out;
     background-color: transparent;
     animation: slideFromLeft 1s ease-out;
     
-    .button-nav {
-        background-color: white;
-    }
-    
     .nav-link {
         color: white !important ; 
         position: relative;
+        font-family: 'BebasNeue';
+        font-size: x-large;
         
         &::after {
             content: '';
