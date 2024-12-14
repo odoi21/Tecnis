@@ -1,4 +1,7 @@
 .navbar {
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    height: 85px;
     .navbar-nav {
         display: flex; /* Asegúrate de que el contenedor sea flex */
         gap: 30px; /* Ajusta el valor según el espacio que desees */
