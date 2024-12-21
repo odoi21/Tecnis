@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+p {
+  color: black !important;
+  z-index: 100;
+}
+
 .navbar {
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
@@ -35,6 +40,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out;
   background-color: transparent;
   animation: slideFromLeft 1s ease-out;
+}
+.navbar .img_logo {
+  overflow: hidden;
+  height: fit-content;
+  width: 80px;
 }
 .navbar .navbar-nav {
   display: flex; /* Asegúrate de que el contenedor sea flex */
@@ -81,6 +91,48 @@ h1, h2, h3, h4, h5, h6 {
 .about-us > h1 {
   margin-top: 30px;
   text-align: center;
+}
+
+.float {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float .img_float {
+  width: 60%;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Permite que las filas se ajusten */
+  justify-content: space-around;
+  /* Espacio uniforme entre elementos */
+  gap: 40px;
+  /* Separación entre los elementos */
+}
+.container .about {
+  text-align: center;
+  width: 250px;
+  /* Ajusta según el tamaño que desees para las imágenes */
+}
+.container .about > img {
+  max-width: 100%;
+  height: auto;
+  /* Mantiene la proporción de las imágenes */
 }
 
 /*# sourceMappingURL=style.css.map */

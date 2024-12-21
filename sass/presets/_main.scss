@@ -1,5 +1,50 @@
-.about-us > h1 {
+.about-us>h1 {
     margin-top: 30px;
     text-align: center;
+}
+
+.float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+
+    .img_float {
+        width: 60%;
+        color: #fff;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Permite que las filas se ajusten */
+    justify-content: space-around;
+    /* Espacio uniforme entre elementos */
+    gap: 40px;
+    /* Separación entre los elementos */
+
+    .about {
+        text-align: center;
+        width: 250px;
+        /* Ajusta según el tamaño que desees para las imágenes */
+    }
+
+    .about > img {
+        max-width: 100%;
+        height: auto;
+        /* Mantiene la proporción de las imágenes */
+    }
 }
 
