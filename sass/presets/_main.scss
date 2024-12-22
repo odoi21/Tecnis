@@ -1,5 +1,16 @@
-.about-us>h1 {
+.nosotros {
     margin-top: 30px;
+    text-align: center;
+}
+
+.about-us {
+    border-top: 10px solid #d1f0b5;
+    margin-top: 0px;
+}
+
+.about-us>h2 {
+    margin-top: 100px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
@@ -34,6 +45,7 @@
     /* Espacio uniforme entre elementos */
     gap: 40px;
     /* Separación entre los elementos */
+    border-bottom: 2px solid #999;
 
     .about {
         text-align: center;
@@ -48,3 +60,7 @@
     }
 }
 
+.downloads > h2 {
+    color: black;
+    text-align: center;
+}
