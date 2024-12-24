@@ -8,8 +8,8 @@
     
     .img_logo {
         overflow: hidden;
-        height: fit-content;
-        width: 80px;
+        height: auto;
+        width: 75px;
         
     }
 
@@ -45,8 +45,15 @@
     }
 }
 
-.navbar-open {
-    background-color: #4f474e; 
+/*Estilos para boton hamburguesa*/
+.button-nav {
+    border: none;
+    background-color: #4f474e;
+}
+
+.navbar-toggler[aria-expanded="true"] span:nth-of-type(1) {
+    transform: rotate(90deg);
+
 }
 
 

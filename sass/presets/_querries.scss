@@ -1,0 +1,37 @@
+/*media para el background de la barra responsive*/
+
+@media  (max-width: 990px) {
+    .navbar {
+        background-color: #4f474e;
+    }
+
+    .navbar-collapse {
+        position: absolute;
+        top: 100%; /* Debajo de la barra de navegación */
+        left: 0;
+        right: 0;
+        background-color: #4f474e;
+    }
+    .nav-item{
+        margin-left: 20px;
+        
+    }
+    .nav-item:active {
+        color: #d1f0b5;
+    }
+    
+}
+
+@media (max-width: 1250px) {   
+    .float {
+        width: 50px;
+        height: 50px;
+        bottom: 40px;
+        right: 5px;
+    }
+
+    .img_float {
+        width: 50%;
+    }
+    
+}
