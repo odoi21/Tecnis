@@ -186,6 +186,9 @@ a {
   .nav-item:active {
     color: #d1f0b5;
   }
+  .nav-link {
+    padding: 1px;
+  }
 }
 @media (max-width: 1250px) {
   .float {
