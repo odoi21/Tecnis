@@ -156,7 +156,6 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   gap: 40px;
-  border-bottom: 2px solid #999;
 }
 .container .about {
   text-align: center;
@@ -196,7 +195,7 @@ a {
 
 .card:hover {
   transform: rotate(-5deg) scale(1.1);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.2);
 }
 
 .card__content {
@@ -226,6 +225,7 @@ a {
 
 /*Inicio segundo section con las descargas de los programas*/
 #downloads {
+  border-top: 2px solid #999;
   width: 100%;
 }
 
