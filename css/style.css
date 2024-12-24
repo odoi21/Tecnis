@@ -190,6 +190,7 @@ a {
     padding: 1px;
   }
 }
+/*Media para logo de wsp*/
 @media (max-width: 1250px) {
   .float {
     width: 50px;
@@ -201,5 +202,6 @@ a {
     width: 50%;
   }
 }
+/*Media para linea separadora de cada section (575px)*/
 
 /*# sourceMappingURL=style.css.map */
