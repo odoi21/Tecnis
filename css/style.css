@@ -225,13 +225,31 @@ a {
 
 /*Inicio segundo section con las descargas de los programas*/
 #downloads {
-  border-top: 2px solid #999;
   width: 100%;
 }
 
 .downloads {
+  border-top: 2px solid #999;
   margin-top: 30px;
   text-align: center;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team-viewer {
+  padding: 20px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+}
+
+.team-viewer > img {
+  padding-right: 20px;
 }
 
 /*media para el background de la barra responsive*/
