@@ -230,8 +230,11 @@ a {
 
 .downloads {
   border-top: 2px solid #999;
-  margin-top: 30px;
   text-align: center;
+}
+
+.downloads > h2 {
+  margin-top: 30px;
 }
 
 .container1 {
@@ -242,16 +245,24 @@ a {
 }
 
 .team-viewer {
-  padding: 20px;
+  gap: 20px;
+  flex: 0 0 calc(50% - 10px);
+  margin-bottom: 20px;
+  justify-content: center;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
 }
 
-.team-viewer > img {
-  padding-right: 20px;
+.img_downloads > img {
+  width: 40px;
 }
 
+.click_downloads:hover {
+  color: #a8f366;
+}
+
+/*Inicio estilos para el form */
 /*media para el background de la barra responsive*/
 @media (max-width: 990px) {
   .navbar {
