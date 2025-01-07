@@ -297,6 +297,21 @@ a {
     width: 50%;
   }
 }
+@media screen and (max-width: 670px) {
+  .container1 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .team-viewer {
+    width: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
 /*Media para linea separadora de cada section (575px)*/
 
 /*# sourceMappingURL=style.css.map */
