@@ -136,6 +136,7 @@
 
 .downloads>h2 {
     margin-top: 30px;
+    margin-bottom: 80px;
 }
 
 .container1 {
@@ -169,6 +170,10 @@
     width: 100%;
 }
 
+.container2 h2 {
+    margin-top: 100px;
+}
+
 .container2 {
     display: flex;
     flex-direction: column;
@@ -178,13 +183,58 @@
     text-align: center;
 }
 
+form {
+    width: 100%;
+}
+
 .allname {
     flex: 1 0 5rem;
-    margin: 100px 100px 100px;
+    margin: 100px 100px 60px;
 }
 
 .contactInfo {
     flex: 1 0 5rem;
     margin: 100px 100px 100px;
+}
 
+input {
+    border: none;
+    outline: none; /* Elimina el recuadro al enfocar el input */    
+    border-bottom: #aff375 5px solid;
+    width: 100%; /* El input ocupará todo el espacio del contenedor */
+    max-width: 300px; /* Máximo ancho permitido */
+}
+
+input:focus {
+    transition: all 0.3s ease; /* Transición suave */
+    transform: scale(1.1);
+}
+
+textarea {
+    width: 100%; /* Ancho al 100% del contenedor */
+    max-width: 600px; /* Ancho máximo */
+    height: 150px; /* Altura personalizada */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    resize: none; /* Evitar que el usuario redimensione */
+    outline: none; /* Quitar el contorno azul al enfocarse */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Sombra para estilo */
+    color: #000000; /* Color del texto */
+    margin-bottom: 40px;
+}
+
+.submit {
+    border: none;
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #a8f366;
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+.submit:hover {
+    transform: scale(1.1);
+    background-color: #98ff3d;
 }
