@@ -48,3 +48,19 @@ input,button {
     font-family: 'Roboto';
     color: black;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: #4f474e;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #484e42;
+    border: 20px solid #aff375;
+}
