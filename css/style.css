@@ -393,6 +393,14 @@ textarea {
     display: flex;
   }
 }
+@media screen and (max-width: 1200px) {
+  textarea {
+    width: 300px;
+  }
+  input {
+    max-width: 200px;
+  }
+}
 /*Media para linea separadora de cada section (575px)*/
 
 /*# sourceMappingURL=style.css.map */
