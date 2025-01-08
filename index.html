@@ -147,7 +147,14 @@
 
         <section id="contact_form">
             <div class="container2">
-                
+                <h2>CONTACTANOS</h2>
+                <form action="js/validation.js" method="post">
+                    <input class="allname" type="text" placeholder="Nombre" name="Nombre" id="name" required>
+                    <input class="allname" type="text" placeholder="Apellido" name="Apellido" id="surname" required><br>
+                    <input class="contactInfo" type="email"placeholder="Correo Electronico" name="Correo" id="email" required>
+                    <input class="contactInfo" type="text" pattern="[0-9]*" placeholder="Numero de Telefono" name="Telefono" id="number" required><br>
+                    <button type="submit">Enviar</button> 
+                </form> 
             </div>
         </section>
     </main>

@@ -24,6 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  text-align: center;
   font-family: "BebasNeue";
   color: black;
   font-size: 2.5rem;
@@ -36,6 +37,12 @@ p {
 }
 
 a {
+  font-family: "Roboto";
+  color: black;
+}
+
+input, button {
+  font-family: "Roboto";
   color: black;
 }
 
@@ -220,7 +227,7 @@ a {
   margin: 10px 0 0;
   font-size: 14px;
   color: #000000;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 /*Inicio segundo section con las descargas de los programas*/
@@ -263,6 +270,29 @@ a {
 }
 
 /*Inicio estilos para el form */
+#contact-form {
+  width: 100%;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.allname {
+  flex: 1 0 5rem;
+  margin: 100px 100px 100px;
+}
+
+.contactInfo {
+  flex: 1 0 5rem;
+  margin: 100px 100px 100px;
+}
+
 /*media para el background de la barra responsive*/
 @media (max-width: 990px) {
   .navbar {
